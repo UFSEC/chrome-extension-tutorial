@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Location Extension",
+  "description": "This extension will tell you where the domain you're at is hosted.",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "SECSquareLogo.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
