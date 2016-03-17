@@ -9,7 +9,11 @@
    "default_icon": "SECSquareLogo.png",
    "default_popup": "popup.html"
   },
+  "background": {
+    "scripts": ["background.js", "helper.js"]
+  },
   "permissions": [
-   "activeTab"
+   "activeTab",
+   "tabs"
    ]
 }
